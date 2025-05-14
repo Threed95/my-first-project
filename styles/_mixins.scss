@@ -1,0 +1,49 @@
+@mixin contact-link {
+    width: 312px;
+    height: 60px;
+    line-height: 60px;
+    border: 5px solid rgb(168, 76, 92);
+    border-radius: 40px;
+    font-size: 0.8rem;
+    font-weight: 600;
+    display: block;
+    margin: 0 auto;
+    text-decoration: none;
+    color: #000;
+}
+
+@mixin contact-link1440 {
+    width: 260px;
+    height: 50px;
+    line-height: 50px;
+}
+
+@mixin contact-link1024 {
+    width: 220px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 0.64rem;
+}
+
+@mixin social-links {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    line-height: 60px;
+    border-radius: 50%;
+    color: #000;
+    background-color: $primary-color;
+    text-align: center;
+}
+
+@mixin social-links1024 {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+}
+
+@mixin social-links768 {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+}

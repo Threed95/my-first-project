@@ -1,0 +1,12 @@
+.books {
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: $bg-color;
+}
+
+@media screen and (max-width:1024px) {
+    .books {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+}

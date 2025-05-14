@@ -1,0 +1,45 @@
+.banner {
+    padding-top: 190px;
+    padding-bottom: 60px;
+    background-color: rgb(237, 233, 233);
+    background-repeat: no-repeat;
+    background-size: cover;
+    &__text {
+        font-size: $base-font;
+        width: 620px;
+        margin: 0 auto 60px;
+        line-height: 1.45rem;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .banner {
+        &__text {
+            font-size: 0.8rem;
+            line-height: 1.16rem;
+            width: 580px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .banner {
+        padding-top: 150px;
+        padding-bottom: 50px;
+        &__text {
+            width: 500px;
+            margin-bottom: 45px;
+        }
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .banner {
+        padding-top: 100px;
+        &__text {
+            font-size: 0.72rem;
+            line-height: 1.04rem;
+            width: 350px;
+        }
+    }
+}

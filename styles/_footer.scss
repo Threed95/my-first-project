@@ -1,0 +1,12 @@
+.footer {
+    padding-top: 40px;
+    padding-bottom: 60px;
+    background-color: $bg-color;
+}
+
+@media screen and (max-width:1024px) {
+    .footer {
+        padding-top: 30px;
+        padding-bottom: 40px;
+    }
+}

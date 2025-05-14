@@ -1,0 +1,15 @@
+.contact-link {
+    @include contact-link;
+}
+
+@media screen and (max-width: 1440px) {
+    .contact-link {
+        @include contact-link1440;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .contact-link {
+        @include contact-link1024;
+    }
+}

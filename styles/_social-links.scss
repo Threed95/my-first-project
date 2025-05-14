@@ -1,0 +1,33 @@
+.social-links {
+    &__item {
+        @include social-links;
+        &:not(:last-child) {
+            margin-right: 20px;
+        }
+        &:hover {
+            scale: 1.4;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .social-links {
+        &__item {
+            @include social-links1024;
+            &:not(:last-child) {
+                margin-right: 15px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .social-links {
+        &__item {
+            @include social-links768;
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+        }
+    }
+}

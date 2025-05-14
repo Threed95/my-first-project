@@ -1,0 +1,43 @@
+.about {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    &__text {
+        width: 850px;
+        margin: 0 auto;
+        font-size: $base-font;
+        line-height: 1.5rem;
+        font-weight: 300;
+    }
+}
+
+@media screen and (max-width:1440px) {
+    .about {
+        &__text {
+            width: 610px;
+        }
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .about {
+        padding-top: 80px;
+        padding-bottom: 80px;
+        &__text {
+            width: 500px;
+            font-size: 0.8rem;
+            line-height: 1.16rem;
+        }
+    }
+}
+
+@media screen and (max-width:768px) {
+    .about {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        &__text {
+            width: 320px;
+            font-size: 0.64rem;
+            line-height: 0.93rem;
+        }
+    }
+}
